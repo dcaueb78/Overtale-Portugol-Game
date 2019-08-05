@@ -62,7 +62,7 @@ programa
 	inteiro frisk_atual = frisk1
 	logico animacao_andando = falso
 
-	//animação depois que zerar o jogo
+	//animaÃ§Ã£o depois que zerar o jogo
 	inteiro error = Graficos.carregar_imagem("imagens/gifs/error.gif")
 	inteiro sans = Graficos.carregar_imagem("imagens/gifs/sans_2.gif")
 	inteiro sans1 = Graficos.carregar_imagem("imagens/gifs/sans_1.gif")
@@ -89,7 +89,7 @@ programa
 	
 	//characters
 	inteiro you = Arquivos.abrir_arquivo("sretcarahc/YoU/YoU.txt", Arquivos.MODO_ESCRITA)
-	logico arquivo_caue_existe = Arquivos.arquivo_existe("sretcarahc/cauê.txt")
+	logico arquivo_caue_existe = Arquivos.arquivo_existe("sretcarahc/cauÃª.txt")
 	logico arquivo_cristian_existe = Arquivos.arquivo_existe("sretcarahc/cristian.txt")
 
 	logico abajur_fala = falso
@@ -293,8 +293,8 @@ programa
 	funcao inteiro menu()
 	{
 		inteiro menuimagem = Graficos.carregar_imagem("imagens/menu/menu.png")
-		inteiro novo_jogo = Graficos.carregar_imagem("Imagens/menu/novo_jogo.png")
-		inteiro creditos = Graficos.carregar_imagem("Imagens/menu/creditos.png")
+		inteiro novo_jogo = Graficos.carregar_imagem("imagens/menu/novo_jogo.png")
+		inteiro creditos = Graficos.carregar_imagem("imagens/menu/creditos.png")
 
 		inteiro movimento = 0
 		logico sair = falso
@@ -393,7 +393,7 @@ programa
 			Graficos.definir_cor(Graficos.COR_BRANCO)
 			Graficos.definir_fonte_texto("Determination Mono")
 			Graficos.definir_tamanho_texto(36.0)
-			Graficos.desenhar_texto(350, 50, "Nome da criança:")
+			Graficos.desenhar_texto(350, 50, "Nome da crianÃ§a:")
 			Graficos.definir_cor(Graficos.COR_AMARELO)
 			Graficos.desenhar_texto(450, 100, nome_personagem)
 			Graficos.definir_cor(Graficos.COR_BRANCO)
@@ -1469,7 +1469,7 @@ programa
 			}
 
 			se(testando_texto){
-				Graficos.desenhar_texto(100, 200, "Você não pode passar")
+				Graficos.desenhar_texto(100, 200, "VocÃª nÃ£o pode passar")
 			}
 
 		
@@ -2853,8 +2853,8 @@ programa
 
 /* $$$ Portugol Studio $$$ 
  * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
+ * Esta seÃ§Ã£o do arquivo guarda informaÃ§Ãµes do Portugol Studio.
+ * VocÃª pode apagÃ¡-la se estiver utilizando outro editor.
  * 
  * @POSICAO-CURSOR = 91479; 
  * @DOBRAMENTO-CODIGO = [152, 210, 238, 292, 365, 750, 769, 791, 812, 834, 856, 880, 916, 1016, 1107, 1194, 1257, 1295, 1352, 1492, 2660, 2677, 2712, 2732, 2791, 2805];
